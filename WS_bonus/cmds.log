@@ -1,8 +1,5 @@
-  560  pip install streamlit plotly pandas numpy scikit-learn
-  561  cd ~/Desktop/challenger-insight-3a-saket
-  562  streamlit run updateddashboard.py
   563  pwd
-  564  cd~
+  564  cd 
   565  cd Desktop/
   566  ls -latr ; mkdir cs149 ; cd cs149
   567  git init
