@@ -1,0 +1,16 @@
+  603  which qemu-system-riscv64
+  604  cd ~/Desktop/xv6-labs-2023
+  605  make qemu
+  606  cd ~/xv6-labs-2023/user
+  607  cd ~/desktop/xv6-labs-2023/user
+  608  touch sleep.c
+  609  open -a TextEdit sleep.c
+  610  cd ~/Desktop/xv6-labs-2023
+  611  open -a TextEdit Makefile
+  612  make clean
+  613  make qemu
+  614  ./grade-lab-util sleep
+  615  cd ~/Desktop/xv6-labs-2023
+  616  ./grade-lab-util sleep
+  617  cd~/Desktop/xv6-labs-2023
+  618  cd ~/Desktop/xv6-labs-2023
