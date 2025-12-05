@@ -1,3 +1,29 @@
+  550  cd ~
+  551  cd ~/Desktop
+  552  git clone git://g.csail.mit.edu/xv6-labs-2023
+  553  cd xv6-labs-2023
+  554  open -a TextEdit user/usertests.c
+  555  make clean
+  556  make qemu
+  557  sleep 10
+  558  ps aux | grep qemu
+  559  kill -9 97150
+  560  cd ~/Desktop/xv6-labs-2023/user
+  561  touch sleep.c
+  562  open -a TextEdit sleep.c
+  563  cd ~/Desktop/xv6-labs-2023
+  564  open -a TextEdit Makefile
+  565  make clean
+  566  make qemu
+  567  sleep 10
+  568  Ctrl-A X
+  569  ./grade-lab-util sleep
+  570  ps aux | grep qemu
+  571  kill -9 97053
+  572  cd ~/Desktop/xv6-labs-2023
+  573  ./grade-lab-util sleep
+  574  cd ~/Desktop/xv6-labs-2023
+  575  history > worksheet1.log
   603  which qemu-system-riscv64
   604  cd ~/Desktop/xv6-labs-2023
   605  make qemu
