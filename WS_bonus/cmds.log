@@ -1,0 +1,16 @@
+  560  pip install streamlit plotly pandas numpy scikit-learn
+  561  cd ~/Desktop/challenger-insight-3a-saket
+  562  streamlit run updateddashboard.py
+  563  pwd
+  564  cd~
+  565  cd Desktop/
+  566  ls -latr ; mkdir cs149 ; cd cs149
+  567  git init
+  568  git remote add origin https://github.com/Izabelladesign/cs149.git
+  569  git config --global user.email "izabelladesigns@icloud.com"
+  570  git config --global user.name "izabelladesign"
+  571  mkdir WS_bonus
+  572  cd WS_bonus
+  573  wget -O out.pdf https://tinyurl.com/yy94jltt
+  574  curl -o out.pdf https://tinyurl.com/yy94jltt
+  575  ls -latr
